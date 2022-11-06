@@ -46,6 +46,10 @@ typedef struct deck_node_s
 } deck_node_t;
 
 void sort_deck(deck_node_t **deck);
+void kind_sort(deck_node_t **list);
+void num_sort(deck_node_t **list);
+int aux_num_fun(deck_node_t *head_tmp1);
+
 int main(void);
 
 #endif /* __DECK__ */
